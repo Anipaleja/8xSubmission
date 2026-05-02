@@ -1,0 +1,30 @@
+{
+  "name": "midi-to-mp3-converter",
+  "version": "1.0.0",
+  "description": "A simple MIDI to MP3 converter for Node.js projects",
+  "main": "src/index.js",
+  "bin": {
+    "midi-to-mp3": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/example.js",
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "midi",
+    "mp3",
+    "converter",
+    "audio",
+    "synthesis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.3",
+    "jsmidgen": "^0.1.5",
+    "wav": "^1.0.2"
+  },
+  "devDependencies": {
+    "fluidsynth-web": "^2.3.0"
+  }
+}
