@@ -1,0 +1,200 @@
+export const CAMPAIGNS = [
+  {
+    id: "c1",
+    brand: "LMNT Electrolytes",
+    brandLogo: "⚡",
+    brandColor: "#FF6B35",
+    payout: 180,
+    deadline: "2025-05-15",
+    status: "active",
+    quota: 3,
+    spotsLeft: 12,
+    platforms: ["TikTok", "Instagram Reels"],
+    brief: {
+      title: "Morning Routine Integration",
+      overview:
+        "Show how LMNT fits into your real morning routine. We want authentic, unscripted content — not overly polished ads. The hook should grab attention in the first 2 seconds.",
+      requirements: [
+        "Min 30 seconds, max 90 seconds",
+        "Must show the product being mixed and consumed",
+        "Include your honest reaction to the taste",
+        "Add on-screen text: 'No sugar. No BS.' somewhere in the video",
+        "Caption must include #LMNTpartner and the link in bio",
+      ],
+      doNot: [
+        "Don't film in a gym (overused)",
+        "Don't use the word 'delicious' — feels forced",
+        "No heavy filters or Instagram-beauty edits",
+      ],
+      spark_code: "Required — DM brand account after approval for Spark Code",
+    },
+    exampleVideos: [
+      {
+        id: "v1",
+        thumbnail: "https://picsum.photos/seed/lmnt1/400/700",
+        creator: "@healthwithsam",
+        views: "2.1M",
+        note: "Strong hook at 0:00 — walks into frame already drinking it",
+      },
+      {
+        id: "v2",
+        thumbnail: "https://picsum.photos/seed/lmnt2/400/700",
+        creator: "@morningwithkate",
+        views: "890K",
+        note: "Good use of B-roll between pour and reaction shots",
+      },
+    ],
+  },
+  {
+    id: "c2",
+    brand: "Notion",
+    brandLogo: "◻",
+    brandColor: "#000000",
+    payout: 320,
+    deadline: "2025-05-20",
+    status: "active",
+    quota: 2,
+    spotsLeft: 5,
+    platforms: ["TikTok"],
+    brief: {
+      title: "Your Second Brain Setup",
+      overview:
+        "Show your actual Notion workspace. Give a real tour of how you use it for work, studying, or life organization. This should feel like a 'day in my life' moment, not a tutorial.",
+      requirements: [
+        "Screen record your actual Notion dashboard",
+        "Min 45 seconds",
+        "Must mention at least one Notion AI feature",
+        "End with a CTA — link in bio for free template",
+      ],
+      doNot: [
+        "No generic 'productivity guru' vibes",
+        "Don't show an empty or fake workspace",
+      ],
+      spark_code: "Not required for this campaign",
+    },
+    exampleVideos: [
+      {
+        id: "v3",
+        thumbnail: "https://picsum.photos/seed/notion1/400/700",
+        creator: "@studywithria",
+        views: "4.7M",
+        note: "Viral because of the 'chaos to clarity' narrative arc",
+      },
+    ],
+  },
+  {
+    id: "c3",
+    brand: "AG1 by Athletic Greens",
+    brandLogo: "🌿",
+    brandColor: "#2D6A4F",
+    payout: 240,
+    deadline: "2025-05-12",
+    status: "active",
+    quota: 4,
+    spotsLeft: 31,
+    platforms: ["TikTok", "Instagram Reels", "YouTube Shorts"],
+    brief: {
+      title: "The One Thing I Take Every Morning",
+      overview:
+        "Position AG1 as a non-negotiable part of your daily routine. Authentic skeptic-to-believer arcs perform best. If you genuinely like the product, let that show.",
+      requirements: [
+        "Min 60 seconds for YouTube Shorts, 30+ for TikTok/Reels",
+        "Must show the full AG1 prep process (scoop, water, shake)",
+        "Mention the subscription offer: '1st month free + travel packs'",
+        "Add affiliate link to bio — tracked per click",
+      ],
+      doNot: [
+        "Do not make medical or health claims",
+        "Don't compare to other greens powders by name",
+      ],
+      spark_code: "Required — provided in campaign portal after acceptance",
+    },
+    exampleVideos: [
+      {
+        id: "v4",
+        thumbnail: "https://picsum.photos/seed/ag1a/400/700",
+        creator: "@fitnessbyjordan",
+        views: "1.3M",
+        note: "The 30-day result hook drove 80% of the watch time",
+      },
+      {
+        id: "v5",
+        thumbnail: "https://picsum.photos/seed/ag1b/400/700",
+        creator: "@wellnesswithtara",
+        views: "620K",
+        note: "Clean kitchen aesthetic, natural light — benchmark for this brand",
+      },
+    ],
+  },
+  {
+    id: "c4",
+    brand: "Tabs Chocolate",
+    brandLogo: "🍫",
+    brandColor: "#8B1A1A",
+    payout: 150,
+    deadline: "2025-05-18",
+    status: "active",
+    quota: 5,
+    spotsLeft: 48,
+    platforms: ["TikTok"],
+    brief: {
+      title: "Tabs for Two — Valentine's Leftover Concept",
+      overview:
+        "Playful, slightly risqué content around couples sharing Tabs. Keep it TikTok-native — trending audio, fast cuts, POV formats all work well. This brand skews 18-28.",
+      requirements: [
+        "Must be 15–30 seconds",
+        "Show the chocolate break-apart ritual",
+        "Use trending audio (check TikTok Creative Center for current top sounds)",
+        "Tag @tabschocolate in post",
+      ],
+      doNot: [
+        "No explicit content — keep it PG-13",
+        "Don't film in bed or bathroom",
+      ],
+      spark_code: "Not required",
+    },
+    exampleVideos: [
+      {
+        id: "v6",
+        thumbnail: "https://picsum.photos/seed/tabs1/400/700",
+        creator: "@couplegoals.official",
+        views: "8.2M",
+        note: "This one went viral — study the text overlay timing",
+      },
+    ],
+  },
+];
+
+export const SUBMISSIONS = [
+  {
+    id: "s1",
+    campaignId: "c2",
+    videoUrl: "https://www.tiktok.com/@myaccount/video/123456789",
+    platform: "TikTok",
+    submittedAt: "2025-05-01T10:30:00Z",
+    status: "approved",
+    reviewNote: "Great authentic workspace tour. Approved for Spark Code.",
+    payout: 320,
+  },
+  {
+    id: "s2",
+    campaignId: "c3",
+    videoUrl: "https://www.instagram.com/reel/ABC123/",
+    platform: "Instagram Reels",
+    submittedAt: "2025-04-28T15:00:00Z",
+    status: "rejected",
+    reviewNote:
+      "Missing the subscription offer mention ('1st month free + travel packs'). Please re-record and resubmit.",
+    payout: 0,
+  },
+  {
+    id: "s3",
+    campaignId: "c1",
+    videoUrl: "https://www.tiktok.com/@myaccount/video/987654321",
+    platform: "TikTok",
+    submittedAt: "2025-05-03T08:00:00Z",
+    status: "pending",
+    reviewNote: null,
+    payout: null,
+  },
+];
