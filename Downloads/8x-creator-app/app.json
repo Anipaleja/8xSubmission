@@ -1,0 +1,22 @@
+{
+  "expo": {
+    "name": "8x Creator",
+    "slug": "8x-creator-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.8x.creator"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0A"
+      },
+      "package": "com.eightx.creator"
+    }
+  }
+}
